@@ -1,0 +1,46 @@
+{
+  "name": "tenxcloud2.0",
+  "version": "0.1.0",
+  "description": "tenxcloud 2.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.tenxcloud.com:public_cloud/www-tenxcloud.git"
+  },
+  "author": "GaoJian",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "moment": "^2.18.1",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
+    "nodemailer": "^2.7.0",
+    "qiniu": "^7.0.8",
+    "sequelize": "^4.8.3",
+    "sequelize-auto": "^0.4.28",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "connect-history-api-fallback": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-html2js": "^0.4.2",
+    "gulp-inject": "^1.1.1",
+    "gulp-jshint": "^1.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-serve": "^1.0.0",
+    "gulp-svg-symbols": "^2.0.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglify": "^1.0.2",
+    "gulp-util": "^3.0.6",
+    "jquery": "^3.1.1"
+  }
+}

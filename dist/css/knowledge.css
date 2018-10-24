@@ -1,0 +1,38 @@
+.top-img {
+  width: 100%;
+  height: 750px;
+}
+.top-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.bottom-img {
+  width: 100%;
+  height: 635px;
+}
+.bottom-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content-wrap {
+  padding: 200px 270px 165px 255px;
+  color: #ffffff;
+  background: url("../assets/img/knowledge/knowledge-content.jpg") 100% 100%;
+}
+.content-wrap .title {
+  margin: 0 0 19px;
+  font-size: 24px;
+  line-height: 24px;
+}
+.content-wrap .intro {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+.content-wrap .tip {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}

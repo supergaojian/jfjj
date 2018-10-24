@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: core, "Avenir Next", "Helvetica Neue", Helvetica, Arial, "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi MicroHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+ul {
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+h1 {
+  font-family: core, "Avenir Next", "Helvetica Neue", Helvetica, Arial, "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi MicroHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 0px;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+.container,
+.container-fluid {
+  padding: 0;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  padding: 0;
+}
+* + address,
+* + blockquote,
+* + dl,
+* + fieldset,
+* + figure,
+* + hr,
+* + ol,
+* + p,
+* + pre,
+* + ul {
+  margin-top: 0px;
+}
+* + address,
+* + blockquote,
+* + dl,
+* + fieldset,
+* + figure,
+* + hr,
+* + ol,
+* + p,
+* + pre,
+* + ul {
+  margin: 0 0;
+}
+.spinIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.spinIcon .topSpin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: spinTopIcon 1s linear infinite;
+  background-color: #39afd5;
+}
+.spinIcon .middleSpin {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: -5px;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #3276a7;
+}
+.spinIcon .bottomSpin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: spinBottomIcon 1s linear infinite;
+  background-color: #39afd5;
+}
+@keyframes spinTopIcon {
+  0% {
+    opacity: 0;
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0, 0);
+  }
+}
+@keyframes spinBottomIcon {
+  0% {
+    opacity: 1;
+    transform: scale(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5, 1.5);
+  }
+}
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  visibility: hidden;
+  height: 0;
+}

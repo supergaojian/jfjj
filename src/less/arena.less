@@ -1,0 +1,206 @@
+body {
+  overflow: auto;
+  background-color: #000001;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+p {
+  margin: 0;
+}
+.content {
+  width: 1600px;
+}
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  background-color: rgba(23,49,125,0.8);
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  &:hover {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+.left-box {
+  float: left;
+  margin-right: 10px;
+  display: inline-block;
+  width: 308px;
+  .top {
+    position: relative;
+    overflow: hidden;
+    height: 255px;
+    line-height: 255px;
+  }
+  .middle {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    line-height: 240px;
+  }
+  .bottom {
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 255px;
+    line-height: 255px;
+  }
+}
+.middle-box {
+  float: left;
+  display: inline-block;
+  width: 745px;
+  .top {
+    .left {
+      float: left;
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      margin-right: 10px;
+      width: 310px;
+      height: 335px;
+      line-height: 335px;
+    }
+    .right {
+      float: left;
+      display: inline-block;
+      width: 425px;
+      .right-top {
+        position: relative;
+        overflow: hidden;
+        height: 170px;
+        line-height: 170px;
+      }
+      .right-bottom {
+        margin-top: 10px;
+        position: relative;
+        overflow: hidden;
+        height: 160px;
+        line-height: 160px;
+      }
+    }
+  }
+  .bottom {
+    margin-top: 10px;
+    .left {
+      float: left;
+      .left-top {
+        .left-top-left {
+          float: left;
+          margin-right: 10px;
+          position: relative;
+          overflow: hidden;
+          width: 260px;
+          height: 250px;
+          line-height: 250px;
+        }
+      }
+      .left-top-right {
+        float: right;
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        height: 250px;
+        line-height: 250px;
+      }
+      .left-bottom {
+        margin-top: 10px;
+        .left-bottom-left {
+          float: left;
+          position: relative;
+          overflow: hidden;
+          width: 355px;
+          height: 170px;
+          line-height: 170px;
+        }
+        .left-bottom-right {
+          float: right;
+          position: relative;
+          overflow: hidden;
+          width: 200px;
+          height: 170px;
+          line-height: 170px;
+        }
+      }
+    }
+    .right {
+      float: right;
+      position: relative;
+      overflow: hidden;
+      width: 170px;
+      height: 430px;
+      line-height: 430px;
+    }
+  }
+}
+.right-box {
+  float: right;
+  width: 525px;
+  .top {
+    .left {
+      margin-right: 10px;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      width: 170px;
+      height: 480px;
+      line-height: 480px;
+    }
+    .right {
+      .right-top {
+        position: relative;
+        overflow: hidden;
+        width: 345px;
+        height: 215px;
+        line-height: 215px;
+      }
+      .right-bottom {
+        margin-top: 10px;
+        position: relative;
+        overflow: hidden;
+        width: 345px;
+        height: 255px;
+        line-height: 255px;
+      }
+    }
+  }
+  .bottom {
+    margin-top: 10px;
+    .left {
+      float: left;
+      .left-top {
+        position: relative;
+        overflow: hidden;
+        width: 345px;
+        height: 130px;
+        line-height: 130px;
+      }
+      .left-bottom {
+        margin-top: 10px;
+        position: relative;
+        overflow: hidden;
+        width: 345px;
+        height: 140px;
+        line-height: 140px;
+      }
+    }
+    .right {
+      float: right;
+      position: relative;
+      overflow: hidden;
+      width: 170px;
+      height: 290px;
+      line-height: 290px;
+    }
+  }
+}
