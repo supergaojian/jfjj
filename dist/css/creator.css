@@ -1,0 +1,40 @@
+.top-img img,
+.bottom-img img {
+  display: block;
+  width: 100%;
+}
+.content-wrap {
+  padding: 141px 275px 175px 405px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #17317d;
+}
+.content-wrap .title {
+  margin: 0;
+  line-height: 42px;
+  font-size: 42px;
+  font-weight: bold;
+}
+.content-wrap .tips {
+  margin-top: 25px;
+}
+.content-wrap .desc {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-size: 22px;
+}
+.content-wrap .history .time {
+  margin-right: 10px;
+  float: left;
+  width: 110px;
+  line-height: 28px;
+  font-size: 22px;
+}
+.content-wrap .history .intro {
+  float: left;
+  width: calc(100% - 120px);
+  line-height: 28px;
+  font-size: 22px;
+  word-break: break-all;
+}
