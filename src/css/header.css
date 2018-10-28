@@ -8,6 +8,11 @@ header {
 header .logo-box {
   float: left;
 }
+header .logo-box img {
+  margin-top: 15px;
+  display: block;
+  height: 80px;
+}
 header .menu-list {
   float: right;
 }
