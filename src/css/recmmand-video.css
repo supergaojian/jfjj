@@ -73,3 +73,40 @@
   height: 100%;
   transition: all ease-in-out 0.7s;
 }
+.video-play-box {
+  z-index: -1;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-play-box.active-video-play-box {
+  z-index: 999;
+  opacity: 1;
+}
+.video-play-box .cover {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.video-play-box .content {
+  z-index: 20;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -400px;
+  width: 800px;
+  height: 600px;
+  background-color: #000001;
+}
+.video-play-box .content video {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

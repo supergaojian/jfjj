@@ -106,8 +106,31 @@
   <div class="bottom-img">
     <img src="../../assets/img/recommand-video/re-video-bottom.jpg" />
   </div>
+<div class="video-play-box">
+  <div class="cover"></div>
+  <div class="content">
+    <video src="http://tsr.oss-cn-qingdao.aliyuncs.com/SKi%20first%20video%2C%20%E7%AB%9E%E6%8A%80%E8%A7%86%E9%A2%91%E8%AF%BE.mp4" controls></video>
+  </div>
+</div>
 <footer>
   尖峰竞技滑雪&nbsp;&nbsp;&nbsp;&nbsp;京ICP备18046119号-1
 </footer>
 </body>
+<script>
+  var video = document.querySelector('video');
+  var videoBtn = document.querySelectorAll('.video-box')[0];
+  var playBox = document.querySelector('.video-play-box');
+  var cover = document.querySelector('.video-play-box .cover');
+  console.log(cover)
+  videoBtn.addEventListener('click', function () {
+    playBox.className = 'video-play-box active-video-play-box';
+    video.currentTime = 0;
+  });
+  cover.addEventListener('click', function () {
+    console.log(playBox)
+    playBox.className = 'video-play-box';
+    video.pause();
+    video.currentTime = 0;
+  })
+</script>
 </html>
