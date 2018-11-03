@@ -17,16 +17,29 @@
   }
 }
 .content-wrap {
+  position: relative;
   padding: 108px 0px 170px;
   color: #ffffff;
-  background: url("../assets/img/recommand-video/re-video-content.jpg") 100% 100%;
+  img {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
   .title {
+    z-index: 10;
+    position: relative;
     margin: 0 0 60px;
     font-size: 24px;
     text-align: center;
     line-height: 24px;
   }
   .intro {
+    z-index: 10;
+    position: relative;
     margin: 0 auto 35px;
     width: 1140px;
     font-size: 18px;
