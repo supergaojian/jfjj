@@ -18,7 +18,7 @@
 }
 .content-wrap {
   position: relative;
-  padding: 200px 270px 165px 255px;
+  padding: 200px 0px 165px;
   color: #ffffff;
 }
 .content-wrap img {
@@ -33,7 +33,8 @@
 .content-wrap .title {
   z-index: 10;
   position: relative;
-  margin: 0 0 19px;
+  margin: 0 auto 19px;
+  width: 800px;
   font-size: 24px;
   line-height: 24px;
 }
@@ -42,12 +43,19 @@
   position: relative;
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 35px;
+  margin: 0 auto 35px;
+  height: 0;
+  width: 800px;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
 }
 .content-wrap .tip {
   z-index: 10;
+  margin: 0 auto;
   position: relative;
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
+  width: 800px;
+  transition: all ease-in-out 0.3s;
 }

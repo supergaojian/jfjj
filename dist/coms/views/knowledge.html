@@ -60,25 +60,25 @@
   </div>
   <div class="content-wrap">
     <img src="../../assets/img/knowledge/knowledge-content.jpg"}>
-    <p class="title">什么是竞技滑雪</p>
-    <p class="intro">
+    <p class="title first-title">什么是竞技滑雪</p>
+    <p class="intro first-content">
       竞技滑雪是围绕着滑雪中定点刻滑这一技术而形成的技术体系，竞赛中为运动员们这只宽窄不同的旗门（Gate）便是为了限制运动员的滑雪轨迹从而考验运动员的定点滑行，
       滑行时的有效性和雪板的强势控制是竞技滑雪技术的核心。
     </p>
-    <p class="title">竞技滑种类雪的</p>
+    <p class="title second-title">竞技滑雪的种类</p>
     <p class="tip">大回转（Giant Slalom）</p>
-    <p class="intro">
+    <p class="intro second-content">
       通常世界杯的大回转旗门会被设有25米的平均间距。男子大回转雪板的世界杯规定范围在191cm-195cm之间。
       大回转作为竞技滑雪中转弯频率第二高的项目，很跳转运动员对雪板反弹的运用。比赛过程中时常需要运动员在极短的时间内达到一个很大的雪板角度。
     </p>
     <p class="tip">小回转（Slalom）</p>
-    <p class="intro">
+    <p class="intro second-content">
       小回转的旗门相较于大回转更加紧凑。男子世界杯小回转板的规格为165cm，这样的长度设计使得运动员接受到的反弹极大。
       滑行小回转时，上半身要求更为稳定且中立，脚踝和膝盖是开始一个转弯的关键。
       小回转在所有项目中速度最慢但转弯数最多，非常考验对节奏和旗门的判断，有时甚至需要雪板在空中做出旋转。
     </p>
-    <p class="title">竞技滑雪与大众滑雪的区别</p>
-    <p class="intro">
+    <p class="title third-title">竞技滑雪与大众滑雪的区别</p>
+    <p class="intro third-content">
       区别于大众熟知的滑雪，竞技滑雪有着极大不同。简单来说大众滑雪强调的是在雪面上姿势优美，而竞技滑雪所覆盖的各种技术均为了一个目标————速度。
       竞技滑雪中的大回转、小回转虽然常会在大众滑雪当中被提及，但前者做强调的并非仅仅是一个滑行形式，更多的是根据旗门不同的设置方式需要相应的滑行技术。
       从技术体系和训练方式角度而言两者也截然不同，比如竞技滑雪运动中的发力方式、转弯时身体部位启动的先后顺序等均与大众滑雪有所区别。
@@ -88,7 +88,18 @@
     <img src="../../assets/img/knowledge/knowledge-bottom.jpg" />
   </div>
 <footer>
-  尖峰竞技滑雪&nbsp;|&nbsp;帮助中心&nbsp;|联系我们&nbsp;400-111-1111&nbsp;&nbsp;&nbsp;&nbsp;2000-2018&nbsp;Tripeak&nbsp;Ski&nbsp;Racing&nbsp;&nbsp;京ICP备18046119号-1
+  Tripeak&nbsp;Ski&nbsp;Racing&nbsp;&nbsp;京ICP备18046119号-1
 </footer>
+<script>
+  document.querySelector('.first-title').addEventListener('mouseenter', function () {
+    document.querySelector('.first-content').style.height = '80px';
+  })
+  document.querySelector('.second-title').addEventListener('mouseenter', function () {
+    document.querySelectorAll('.second-content').forEach(function(ele){ele.style.height = '100px';});
+  })
+  document.querySelector('.third-title').addEventListener('mouseenter', function () {
+    document.querySelectorAll('.third-content').forEach(function(ele){ele.style.height = '120px';});
+  })
+</script>
 </body>
 </html>

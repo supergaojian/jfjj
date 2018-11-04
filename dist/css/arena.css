@@ -13,7 +13,13 @@ header img {
 p {
   margin: 0;
 }
+.white-line {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+}
 .content {
+  margin: 10px 0;
   width: 1600px;
 }
 .cover {
